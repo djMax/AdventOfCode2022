@@ -10,9 +10,15 @@
   <ItemGroup>
     <None Remove="Search\" />
     <None Remove="Day19\" />
+    <None Remove="Day19\data.txt" />
+    <None Remove="Util\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Search\" />
     <Folder Include="Day19\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Day19\data.txt" />
   </ItemGroup>
 </Project>
